@@ -8,7 +8,10 @@ Open Source multi-patient medical ventilator for massive emergency situations - 
 
 | Parameter | Type | Description |
 |---|---|---|
-|**Ambu-bag**|bool|Incorporates an [Ambu-bag](https://www.ambu.com/clinical-studies/ambu-resuscitator)|
+|**Project**|string|Name of the project|
+|**Institute**|string|Name of the organization|
+|**Links**|string|Online materials|
+|**Air supply**|enum{ambu-bag, wall outlet, built-in}|Type of air supply: [Ambu-bag](https://www.ambu.com/clinical-studies/ambu-resuscitator), hospital wall outlet or built-in solution|
 |**Long-term**|bool|Intended for continuous use for many hours|
 |**Nr outputs**|int|Number of patients the device can serve parallel|
 |**Actuator**|string| Mechanism|
@@ -17,13 +20,16 @@ Open Source multi-patient medical ventilator for massive emergency situations - 
 |**UI**|string|Type of user interface|
 |**Pressure ctrl**|bool|Controlled pressure|
 |**Safety**|string|Safety features|
+|**Price**|int|Estimated bulk-manufacturing price in $|
 
 
 ### Comparison table
 
-| Project | Links | Ambu-bag | Long-term | Nr outputs | Actuator | Adjustable volume | Adjustable speed | UI | Pressure ctrl | Safety |
-| --- | --- | :---: | :---: | --- | --- | --- | --- | --- | :---: | --- |
-| [Take a Breather](http://oedk.rice.edu/Sys/PublicProfile/47585242/1063096) | [Article](https://news.rice.edu/2019/05/01/student-invention-gives-patients-the-breath-of-life-2/), | ✓ | ✓ | 1 | Rack & pinion | discrete | discrete | UI | X | none |
+| Project | Institute | Links | Air supply | Long-term | Nr outputs | Actuator | Adjustable volume | Adjustable speed | UI | Pressure ctrl | Safety | Price |
+| --- | --- | --- | :---: | :---: | --- | --- | --- | --- | --- | :---: | --- | --- |
+| MultiVent | [IROB - OE](http://irob.uni-obuda.hu/?q=en) | [GitHub](https://github.com/ABC-iRobotics/multivent) | built-in | ✓ | 5 | Industrial vacuum cleaner motor | ? | ? | ? | ✓ | ? | ? |
+| Take a Breather | [OEDK - RICE](http://oedk.rice.edu/)| [article](https://news.rice.edu/2019/05/01/student-invention-gives-patients-the-breath-of-life-2/), [public profile](http://oedk.rice.edu/Sys/PublicProfile/47585242/1063096)  | Ambu-bag | ✓ | 1 | Rack & pinion | discrete | discrete | LCD and buttons | X | none | ? |
+| Low-cost Portable Mechanical Ventilator | Institute | [paper](https://e-vent.mit.edu/wp-content/uploads/2020/03/DMD-2010-MIT-E-Vent.pdf) | Ambu-bag | X | 1 | Pivoting cam arm | Continuous | Continuous | Knobs | ✓ | Over-pressure alarm | 200 |
 
 ### Arbitrary links
 
@@ -45,5 +51,9 @@ Open Source multi-patient medical ventilator for massive emergency situations - 
 - https://e-vent.mit.edu/wp-content/uploads/2020/03/DMD-2010-MIT-E-Vent.pdf
 - http://www.onebreathventilators.com/	
 - http://oedk.rice.edu/Sys/PublicProfile/47585242/1063096
-
+- https://e-vent.mit.edu/?fbclid=IwAR1Wt48dTyqpNfGEb84gJkT1yPgEH7q8lvXa1uf27n4UiYYlMUPQMVIO6hE
+- https://24.hu/belfold/2020/03/26/koronavirus-lelegeztetogep-egeszsegugy/
+- https://www.europeanscientist.com/en/public-health/an-open-source-respirator-for-40-euros-from-a-3d-printer/
+- https://www.bbc.com/news/technology-52021757
+- https://hackaday.com/2020/03/25/ventilators-101-what-they-do-and-how-they-work/?fbclid=IwAR0Zt14DeGQpgK3idkqEPmunTQudY1Sa7-hktxozl5Tdq36QGEqKXfKEjz4
 
