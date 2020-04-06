@@ -1,6 +1,6 @@
-# MultiVent
+# MassVentil
 
-Open Source multi-patient medical ventilator for massive emergency situations - ABC-iRobotics/multivent
+Open Source multi-patient medical ventilator for massive emergency situations - ABC-iRobotics/MassVentil
 
 http://massventil.org/
 
@@ -102,7 +102,7 @@ http://massventil.org/
 ### Comparison table
 |Project|Institute|Links|Air supply|Nr outputs|Actuator|Adjustable volume|Adjustable speed|Pressure ctrl|UI|Safety|Price|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|MultiVent|[IROB - OE](http://irob.uni-obuda.hu/?q=en)|[Project website](http://massventil.org/en/project/), [GitHub](https://github.com/ABC-iRobotics/multivent)|built-in|5-50|Industrial vacuum cleaner motor|Continuous|Continuous|?|Central dashboard|?|?|
+|MassVentil|[IROB - OE](http://irob.uni-obuda.hu/?q=en)|[Project website](http://massventil.org/en/project/), [GitHub](https://github.com/ABC-iRobotics/MassVentil)|built-in|5-50|Industrial vacuum cleaner motor|Continuous|Continuous|?|Central dashboard|?|?|
 |Take a Breather|[OEDK - RICE](http://oedk.rice.edu/)|[article](https://news.rice.edu/2019/05/01/student-invention-gives-patients-the-breath-of-life-2/), [public profile](http://oedk.rice.edu/Sys/PublicProfile/47585242/1063096) |Ambu-bag|1|Rack & pinion|discrete|discrete|X|LCD and buttons|X|?|
 |Low-cost Portable Mechanical Ventilator|Institute|[paper](https://e-vent.mit.edu/wp-content/uploads/2020/03/DMD-2010-MIT-E-Vent.pdf)|Ambu-bag|1|Pivoting cam arm|Continuous|Continuous|?|Knobs|Over-pressure alarm|200|
 |Open Source Ventilator Project|[CSSALT - UF](https://simulation.health.ufl.edu/)|[Project website](https://simulation.health.ufl.edu/technology-development/open-source-ventilator-project/), [Specs](https://simulation.health.ufl.edu/wordpress/files/2020/04/Engineering_Specifications_OS_Vent_April_3_2020.pdf)|wall pipeline|1|-|Continuous|Continuous|?|LCD and buttons|Alarms|125|
